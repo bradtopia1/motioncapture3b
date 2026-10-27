@@ -1,0 +1,11 @@
+# Recorded video and the run log are generated at runtime.
+clips/
+motioncapture.log
+motioncapture.log.*
+
+# Raw H.264 is only left behind when ffmpeg is missing, but ignore it either way.
+*.h264
+
+__pycache__/
+*.pyc
+.venv/

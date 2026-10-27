@@ -1,0 +1,9 @@
+# On a Raspberry Pi, do NOT pip install these - install them from apt, where they
+# are already built for the Pi's camera and CPU:
+#
+#   sudo apt install -y python3-picamera2 python3-numpy
+#
+# This file is for a dev machine that wants to run the tests. motion_capture.py
+# itself needs picamera2 (apt only) plus numpy; test_motion_capture.py needs
+# numpy only.
+numpy
